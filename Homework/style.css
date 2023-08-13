@@ -1,0 +1,42 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: black;
+  font-family: "Handjet", cursive;
+  font-family: "Roboto", sans-serif;
+}
+h3 {
+  font-size: 48px;
+}
+body {
+  background-image: url("nature3.jpg");
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+.temperature {
+  color: black;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -36px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background: purple;
+  color: white;
+  cursor: pointer;
+}
